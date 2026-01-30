@@ -1,0 +1,18 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+beautifulsoup4 = "*"
+curl-cffi = "*"
+requests = "*"
+pandas = "*"
+openpyxl = "*"
+gspread = "*"
+google-auth = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.11"

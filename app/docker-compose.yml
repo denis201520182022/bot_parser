@@ -1,0 +1,11 @@
+version: "3.9"
+
+services:
+  moigruz-monitor:
+    build: .
+    restart: unless-stopped
+    env_file:
+      - .env
+    volumes:
+      - ./creds:/app/creds:ro
+      - ./state:/app/state
